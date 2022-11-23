@@ -33,8 +33,6 @@ pnpm add -D eslint @kevinmarrec/eslint-config
 }
 ```
 
-> You don't need `.eslintignore` normally as it has been provided by the preset.
-
 ### Add script for package.json
 
 For example:
@@ -70,7 +68,7 @@ This configuration is based on [@antfu/eslint-config](https://github.com/antfu/e
 
 Made with ❤️
 
-Published under the [MIT License](./LICENSE).
+Published under the [MIT License](./LICENSE)
 
 [npm-version-src]: https://img.shields.io/npm/v/@kevinmarrec/eslint-config?style=flat-square
 [npm-version-href]: https://npmjs.com/package/@kevinmarrec/eslint-config
