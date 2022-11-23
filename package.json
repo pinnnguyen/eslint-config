@@ -19,6 +19,8 @@
     "@antfu/eslint-config": "^0.31.0"
   },
   "devDependencies": {
+    "standard-version": "^9.5.0",
     "eslint": "^8.27.0"
-  }
+  },
+  "packageManager": "pnpm@7.17.0"
 }

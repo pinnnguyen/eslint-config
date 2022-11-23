@@ -1,0 +1,23 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  release:
+    if: github.event_name == 'push' && startsWith(github.event.head_commit.message, 'chore(release)')
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - run: corepack enable
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          registry-url: 'https://registry.npmjs.org'
+
+      - run: pnpm publish -q --access public
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
