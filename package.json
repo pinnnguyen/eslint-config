@@ -1,0 +1,24 @@
+{
+  "name": "@kevinmarrec/eslint-config",
+  "version": "0.0.0",
+  "description": "Kevin's ESLint config",
+  "author": "Kevin Marrec <kevin@marrec.io> (https://github.com/kevinmarrec)",
+  "license": "MIT",
+  "homepage": "https://github.com/kevinmarrec/eslint-config",
+  "keywords": [
+    "eslint-config"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "dependencies": {
+    "@antfu/eslint-config": "^0.31.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.27.0"
+  }
+}
