@@ -29,7 +29,7 @@ pnpm add -D eslint @kevinmarrec/eslint-config
 
 ```json
 {
-  "extends": "@kevinmarrec"
+  "extends": "@baoo"
 }
 ```
 
