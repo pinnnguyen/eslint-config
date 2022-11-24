@@ -1,7 +1,7 @@
 {
   "name": "@pinnnguyen/eslint-config",
   "version": "0.0.1",
-  "description": "Kevin's ESLint config",
+  "description": "Pinn ESLint config",
   "author": "Pinn (https://github.com/pinnnguyen)",
   "license": "MIT",
   "homepage": "https://github.com/pinnnguyen/eslint-config",
