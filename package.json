@@ -1,6 +1,6 @@
 {
   "name": "@baoo/eslint-config",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Pinn ESLint config",
   "author": "Pinn (https://github.com/pinnnguyen)",
   "license": "MIT",
