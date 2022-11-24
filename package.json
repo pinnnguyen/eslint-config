@@ -1,10 +1,10 @@
 {
-  "name": "@kevinmarrec/eslint-config",
+  "name": "@pinnnguyen/eslint-config",
   "version": "0.0.1",
   "description": "Kevin's ESLint config",
-  "author": "Kevin Marrec <kevin@marrec.io> (https://github.com/kevinmarrec)",
+  "author": "Pinn (https://github.com/pinnnguyen)",
   "license": "MIT",
-  "homepage": "https://github.com/kevinmarrec/eslint-config",
+  "homepage": "https://github.com/pinnnguyen/eslint-config",
   "keywords": [
     "eslint-config"
   ],
